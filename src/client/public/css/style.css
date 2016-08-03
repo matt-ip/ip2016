@@ -1,0 +1,437 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin:		0;
+    padding:		0;
+    border:		0;
+    outline:		0;
+    font-size:		100%;
+    vertical-align:		baseline;
+    background:		transparent;
+}
+
+body {
+    line-height:		1;
+}
+
+html {
+    height:		100.5%;
+    min-height:		100.5%;
+}
+
+ol, ul {
+    list-style:		none;
+}
+
+blockquote, q {
+    quotes:		none;
+}
+
+:focus {
+    outline:		0;
+}
+
+ins {
+    text-decoration:		none;
+}
+
+del {
+    text-decoration:		line-through;
+}
+
+table {
+    border-collapse:		collapse;
+    border-spacing:		0;
+}
+/* site styles */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 12px;
+    /*background-image: url(/img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;*/
+    background: #f1f1f1;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 a{
+    background: url('../img/logo.jpg') no-repeat 0 0;
+    width: 215px;
+    height: 85px;
+    display: inline-block;
+    text-indent: -99999pc;
+}
+
+h2{
+    float: left;
+    font-size: 44px;
+    padding-top: 24px;
+    color: #999;
+}
+
+a{text-decoration: none;}
+
+.clearfix:before,
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;}
+
+#wrapper{
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+header{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 10px 9px -8px #ccc;
+}
+
+.contact-details{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+#contentWrap{
+    clear: both;
+    padding-top: 15px;
+}
+
+nav{
+    width: 235px;
+    margin: 5px auto;
+}
+
+nav li{
+    float: left;
+}
+
+nav li + li{
+    margin-left: 10px;
+}
+
+nav a{
+    background: #3498db;
+    color:#fff;
+    font-size: 30px;
+    float: right;
+    display: block;
+    clear: both;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+}
+
+nav a:hover, nav a.active{
+    color:#ccc;
+}
+
+.panel{position: absolute;}
+
+section, .panel{
+    margin: 0 auto;
+    width: 940px;
+}
+
+/* add class to rotate */
+.rotate{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+
+    -webkit-transform: rotate(10deg) translate(30px, 30px);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+}
+
+/* add class to scale down */
+.scaleDown{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+}
+
+.article{
+    float: left;
+    width: 300px;
+    height: 300px;
+    /*border: 1px solid #999;*/
+    margin: 0 5px 10px 5px;
+    overflow: hidden;
+    /*opacity: 0.8;*/
+    z-index: 9998;
+    box-shadow: 0 0 12px #bbb;
+}
+
+.article .title{
+    position: absolute;
+    width: 300px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.title h3{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    float: right;
+    background: #3498db;
+    color: #fff;
+    padding: 5px 8px;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0;
+    margin-top: -30px;
+}
+
+.article:hover > .title h3{
+    margin-top: 0;
+    opacity: 0.9;
+}
+
+#clientWrap{
+    background-image: url(/img/fade.png);
+    padding: 30px;
+    float: left;
+    clear: both;
+    width: 860px;
+}
+
+#clientWrap h3{
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+#clientWrap p{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: arial;
+    width: 610px;
+    padding-bottom: 15px;
+}
+
+#clientWrap p a{
+    color: #000;
+    text-decoration: underline;
+}
+
+#project{display: none; position: absolute; z-index: 9999;}
+
+#closePro{
+    background-image: url(/img/x.png);
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    position: absolute;
+    margin: -18px 0 0 900px;
+    z-index: 999999;
+    display: none;
+}
+
+.project-details{
+    margin: 0 auto;
+    width: 850px;
+}
+
+.project-details a{
+    color: #3498db;
+}
+
+.project-details a:hover{
+    color:#333333;
+}
+
+.project-details p{
+    line-height: 1.8em;
+    font-size: 1.2em;
+}
+
+h4 {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+span.tag{
+    background: #3498db;
+    border-radius: 3px;
+    padding: 1px 2px;
+    color: #fff;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    background: #000;
+    height:20px;
+    padding: 10px 0 0 30px;
+    width: 100%;
+    font-size: 10px;
+    font-family: arial;
+    opacity: 0.8;
+    clear: both;
+}
+
+/*
+* animate in angularjs
+*/
+.view-enter-setup, .view-leave-setup {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+
+    opacity: 0;
+}
+
+.view-enter-setup.view-enter-start {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    opacity: 1;
+}
+
+.article{
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+
+/*
+*    When screen is smaller
+*/
+@media only screen and (max-width:1000px){
+    #wrapper{
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .article{
+        height:150px;
+    }
+}
+
+@media only screen and (max-width:945px){
+
+    section, .panel{
+        width: 620px;
+    }
+
+}
+
+@media only screen and (max-width:635px){
+
+    section, .panel{
+        width: 310px;
+    }
+
+    .article img{margin-top: -65px;}
+
+    .project-details{width: auto;}
+
+    .project-details img{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width:341px){
+
+    body{background: #999;}
+
+    header{
+        width: 330px;
+        padding: 5px 0 5px 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    h1{padding: 0; height: 70px;}
+    h1 a{
+        background-size: 100%;
+        width: 170px;
+
+    }
+
+    h2{
+        font-size: 13px;
+        padding:36px 0 0 5px;
+    }
+
+    #contact{
+        clear: both;
+        margin: 5px 0 0 25px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    #contentWrap {
+        padding-top: 15px;
+    }
+
+    nav{
+        margin-left: 10px;
+    }
+
+    nav a{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #closePro{
+        margin-left: 280px;
+    }
+
+    .article{
+        opacity: 1;
+        margin: 0 0 10px 10px;
+
+    }
+
+
+
+    #clientWrap{
+        padding: 10px;
+        background: #fff;
+        width: 300px;
+        overflow: hidden;
+    }
+
+    #clientWrap img{width: 98%;}
+
+    #clientWrap p {
+        width: 100%;
+    }
+
+    .title h3{
+        margin-top: 0;
+        background-color: #333;
+        border-radius: 0 0 5px 0;
+        float: left;
+        opacity: 1;
+        font-size: 15px;
+    }
+
+    footer{display: none;}
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "id": 17, "project_name": "Kantar political swingometer", "url_name": "kantar_swingometer", "active":false,
+        "image": "/img/swing-logo.png", "image2": "/img/swing-m.png", "text": "<p>Built within the Kantar UK website. This project allowed users to add food items to a shopping basket, From this the political party they were most likely to vote for based on their basket. <span class='tag'>HTML</span> <span class='tag'>CSS</span> <span class='tag'>jQuery</span>  <span class='tag'>Knockoutjs</span> and <span class='tag'>Highcharts</span></p>"
+    },
+    {
+        "id": 16, "project_name": "Nestle - Commitments", "url_name": "nestle", "active":false,
+        "image": "/img/nestle-logo.png", "image2": "/img/nestle-m.png", "text": "<p>Nestle commitments interactive. filtered and animated  <span class='tag'>HTML</span> <span class='tag'>CSS</span> <span class='tag'>jQuery</span> and <span class='tag'>Highcharts.js</span></p>"
+    },
+    {
+        "id": 15, "project_name": "Millward Brown", "url_name": "millward_brown", "active":false,
+        "image": "/img/mb-logo.png", "image2": "/img/mb-m.png", "text": "<p>Parrallax, sticky nav, scrolly, Reponsive thingy. <span class='tag'>HTML</span> <span class='tag'>CSS</span> <span class='tag'>jQuery</span></p>"
+    },
+    {
+        "id": 14, "project_name": "RBS TOTB", "url_name": "RBS", "active":true,
+        "image": "/img/rbs-logo.png", "image2": "/img/rbs-m.png", "text": "<p>RBS 'think outside the bank' internal website. Reponsive web site built with module based layouts. <span class='tag'>HTML</span> <span class='tag'>CSS</span> <span class='tag'>jQuery</span> and <span class='tag'>Highcharts.js</span></p>"
+    },
+    {
+        "id": 13, "project_name": "Kantar US & China", "url_name": "Kantar", "active":true,
+        "image": "/img/kantar-logo.png", "image2": "/img/kantar-m.png", "text": "<p>Kantar <a href='http://us.kantar.com/tech/tv/tracking-mad-men-tweets/' target='_blank' >US</a> and <a href='http://cn.kantar.com/%E5%95%86%E4%B8%9A%E8%B6%8B%E5%8A%BF/%E9%99%AA%E4%BD%A0%E5%9C%A8%E5%BE%AE%E5%8D%9A%E4%B8%8A%E7%9C%8B%E6%98%9F%E6%98%9F/' target='_blank'>China</a> data visualisations of selected stories powered on the backend by <span class='tag'>umbraco</span> cms and third party data api's. Frontend <span class='tag'>highcharts.js</span> <span class='tag'>D3.js</span> and <span class='tag'>twitter api</span>.</p>"
+    },
+    {
+        "id": 12, "project_name": "Guardian travel guides", "url_name": "The Guardian", "active":true,
+        "image": "/img/guardian-logo.png", "image2": "/img/travel-guides.png", "text": "<p>Guardian <a href='http://www.theguardian.com/travel/interactive/2013/oct/03/travel-usa-guides'>Travel guides</a>, <span class='tag'>google maps</span> API, <span class='tag'>jQuery</span> <span class='tag'>Knockout.js</span> <span class='tag'>twitter bootstrap</span> <span class='tag'>asp.net</span> running a custom cms backend.  </p>"
+    },
+    {
+        "id": 11, "project_name":"GRDD", "url_name": "grdd", "active":false,
+        "image":"/img/creativepool_logo.jpg", "image2":"/img/ip-m.jpg", "text": "<p>Front end development and responsive design implemented for the psoriassess patients website.</p>"
+    },
+    {
+        "id": 10, "project_name":"Creativepool", "url_name": "creativepool", "active":true,
+        "image":"/img/creativepool_logo.jpg", "image2":"/img/creativepool-m.jpg", "text": "<p>Re-factored old code base and implemented new design and functionality of the new web site.  <span class='tag'>HTML5</span> <span class='tag'>CSS3</span> <span class='tag'>jQuery</span> <span class='tag'>PHP</span></p>"
+    },
+    {
+        "id": 9, "project_name":"Ironpanda", "url_name": "ironpanda", "active":true,
+        "image":"/img/ip.jpg", "image2":"/img/ip-m.jpg", "text": "<p>Ironpanda website rare design & build and crafted clean and semantic <span class='tag'>html5</span> <span class='tag'>css3</span> and <span class='tag'>Angularjs</span>.</p>"
+    },
+    {
+        "id": 8, "project_name":"Three Mobile Facebook app", "url_name": "three_mobile_facebook_app", "active":true,
+        "image": "img/3fb.jpg", "image2": "/img/3fb-m.jpg", "text": "<p>A Facebook app built using <span class='tag'>php</span> <span class='tag'>mysql</span> <span class='tag'>html</span> <span class='tag'>css</span> and <span class='tag'>jQuery</span>.</p><p>The app was integrated into Three's facebook page via a tab. The competition was a major success and attracted 10K new likes in the first two weeks.<br /><br />Link: <a href='https://www.facebook.com/ThreeUK' target='_blank'>Three facebook page</a></p>"
+    },
+    {
+        "id": 7, "project_name":"Henrietta Barnett School", "url_name": "henrietta_barnett_school", "active":true,
+        "image":"img/hbs.png", "image2":"/img/hbs-m.png", "text": "<p>Henrietta Barnett School was built using <span class='tag'>html5</span> <span class='tag'>css3</span> and intergrated in to a asp cms (zoobuilder).<br /><br />Link: <a href='http://www.hbschool.org.uk' target='_blank'>Henrietta Barnett School</a>"
+    },
+    {
+        "id": 6, "project_name":"Three Mobile Blog", "url_name": "three_mobile_blog", "active":true,
+        "image":"img/3blog.png", "image2":"/img/3blog-m.png", "text": "<p>Early in 2011 the award winning Three blog had the design freshened up. I implemented the new designs into the orginal Wordpress template using <span class='tag'>css</span> <span class='tag'>html</span> and added social aspects including Twitter and YouTube feeds. This also required some custom widget development.</p><p>Link: <a href='http://blog.three.co.uk/' target='_blank'>Three blog</a>"
+    },
+    {
+        "id": 5, "project_name":"Telemetry", "url_name": "telemetry", "active":true,
+        "image":"img/tel.png", "image2":"/img/tel-m.png", "text": "<p>Telemetry website, <span class='tag'>html5 video</span> custom <span class='tag'>js/jQuery</span> for a unique website.<br /><br />Link: <a href='http://www.telemetry.com'>Telemetry</a>"
+    },
+    {
+        "id": 4, "project_name":"Three Mobile campaign site", "url_name":"three_mobile_campaign_site", "active":true,
+        "image":"img/daysout.jpg", "image2":"/img/daysout-m.jpg", "text": "<p>A mini site created for Three mobile for a chance to win a free 'day out'. The site consisted of a simple quiz and form for the user to fill out. By using <span class='tag'>CSS3</span> <span class='tag'>media queries</span> and responsive design ideas we were able to optimize the layout for smart phones and tablets.</p><p>Link: <a href='http://daysout.three.co.uk/' target='_blank'>three website</a>"
+    },
+    {
+        "id": 3, "project_name":"zoomedia", "url_name":"zoomedia", "active":true,
+        "image":"img/zm.jpg", "image2":"/img/zm-m.jpg", "text": "<p>Taking zoomedia's current layout and design of their website (zoobuilder) and blog (Wordpress). I added css3 media quires to create a responsive website and blog versions for smartphones and smaller screens.</p><p>Link: zoomedia's <a href='http://www.zoo-media.co.uk'> web site</a> and <a href='http://www.zoo-media.co.uk/blog/' target='_blank'>blog</a>"
+    },
+    {
+        "id": 2, "project_name":"A Taste of Spain", "url_name":"a_taste_of_spain", "active":true,
+        "image":"img/atos.jpg", "image2":"/img/atos-m.jpg", "text": "<p>A Taste of Spain 2011 website. <span class='tag'>html</span> <span class='tag'>css</span> and intergrated in to a <span class='tag'>classic asp</span> cms (zoobuilder)</p><p>Link: <a href='http://www.atasteofspain.co.uk' target='_blank'>A Taste of Spain</a>"
+    },
+    {
+        "id": 1, "project_name":"Westminster Business Council", "url_name":"westminster_business_council", "active":true,
+        "image":"img/wbc.png", "image2":"/img/wbc-m.png", "text": "<p>Westminster Business Council built with html5, css3 and intergrated in to a asp cms (zoobuilder).</p><p><a href='http://www.westminsterbc.org.uk/' target='_blank'>Westminster Business Council</a>"
+    }
+]
